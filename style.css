@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+ 
+ 
+ 
+ .container{
+
+        width: 80%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        align-items: center;
+        margin-left: 10% ;
+    }
+
+    .card{
+        
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        flex-wrap: nowrap;
+        display:flex;
+        justify-content: space-between;  
+        flex-wrap: wrap;     
+        margin-top: 77px;
+            
+    }
+
+    .card_img{
+        width: 400px;
+        height: 400px;
+        margin-top: 78px;
+    }
+
+    .card_text {
+        margin-top  : 154px;
+        width: 45%;
+        display: inline;
+    }
+
+    .title{
+        font-family:'roboto';
+    text-align:center ;   
+    font-weight: 700;
+    font-size: 42px;
+    line-height:49.22px ;
+        
+    }
+
+    a {
+        font-size: 16px;
+        font-weight: 700;
+        background-color: red;
+        padding: 19px;
+        line-height:18.75px;
+        font-family: 'roboto';
+        color: white;
+        text-decoration: none;
+        margin-top: 30px;
+        display: inline-block;
+        
+
+    }
+
+    .card_text h1{
+        font-family:'roboto';   
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 44.53px;
+
+    }
+    .card_text p{
+        font-family:'roboto';   
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 36px;
+        margin-top: 9px;
+    }
+
+    .card_text_p{
+        margin-top: 9px;
+    }
+
+    
+  
+  
